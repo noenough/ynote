@@ -1,0 +1,193 @@
+@font-face{
+    font-family: "Kalam";
+    src: url("./assets/fonts/Kalam-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Kalam_bold";
+    src: url("./assets/fonts/Kalam-Bold.ttf") format('truetype');
+}
+*{
+    font-family: "Kalam";
+    color: #E0E0E0;
+    background-color: #121212;
+}
+body{
+    margin-inline: 23px;
+    margin-block: 29px;
+}
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 95vw;
+}
+.logo{
+   width: 80px;
+   height: 50px;
+   margin-inline: 10px;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url("./assets/images/logo_white.png");
+}
+.search-bar{
+display: flex;
+flex: 1;
+border: solid 1px #121212;
+border-radius: 20px;
+background-color: #2A2929;
+justify-content: center;
+align-items: center;
+padding-inline: 10px;
+height: 50px;
+width: 60vw;
+}
+.search-icon{
+width: 20px;
+height: 20px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url("./assets/images/search_light.png");
+padding-right: 30px;
+background-color: #2A2929;
+}
+.search-text{
+background-color: #2A2929;
+display: flex;
+flex: 1;
+height: 30px;
+font-size: 20px;
+outline: none;
+border: none;
+}
+.dark-light{
+    margin-inline: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #121212;
+    background-color: #2A2929;
+    padding: 10px;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./assets/images/light.png");
+}
+
+.gos{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #2A2929;
+    border-radius: 80px;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./assets/images/gosmak.png");
+    padding: 10px;
+}
+
+.note-box{
+display: flex;
+flex: 1;
+
+justify-content: center;
+align-items: center;  
+padding: 10px; 
+}
+
+/* Note add css*/
+.yza{
+    margin-inline: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #121212;
+    padding: 10px;
+    background-color: #2A2929;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./assets/images/back_white.png");
+}
+.done-dugme{
+    width: 20vw;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #2A2929;
+    color: #E0E0E0;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.done-dugme:hover{
+    background-color: rgb(54, 54, 54);
+}
+.notehere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: min(16px,2vw);
+    background-color: #2A2929;
+    outline: none;
+    border-color: #2A2929;
+}
+
+
+/*Main blog*/
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 80vw;
+    margin: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-color: #121212;
+    background-color: #2A2929;
+}
+
+.title-style{
+    display: flex;
+       background-color: #2A2929;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.note-style{
+    background-color: #2A2929;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    font-size: 18px;
+ 
+
+    
+}
+.cyzyk{
+       background-color: #2A2929;
+    background-color: #545151;
+    height: 1px;
+    margin-block: 2px;
+}
