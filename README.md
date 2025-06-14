@@ -1,7 +1,12 @@
-# Tauri + Vanilla
+# Ynote
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+## Ynote is a useful, very simple desktop note app
 
-## Recommended IDE Setup
+### Features
+- Dark & Light mode
+- Update notes
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+![ynote_darkandlight](https://github.com/user-attachments/assets/4e8c6b2a-15b8-426c-a477-12161b469e09)
+
+![ynote_add_notedarklight](https://github.com/user-attachments/assets/db2040e3-2ccb-4da8-8868-ab7e0c77d9a8)
